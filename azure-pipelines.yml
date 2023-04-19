@@ -11,10 +11,10 @@ pool:
 
 variables:
   webAppName: 'nodejs-appsvc-cosmosdb-bottleneck'
-  serviceConnection: 't-anpanda-AneeshaTest-7c71b563-0dc0-4bc0-bcf6-06f8f0516c7a'
+  serviceConnection: 'serviceaneesha'
   azureSubscriptionId: '7c71b563-0dc0-4bc0-bcf6-06f8f0516c7a'
-  loadTestResource: '<anp>'
-  loadTestResourceGroup: '<testaneesha>'
+  loadTestResource: 'anp'
+  loadTestResourceGroup: 'testaneesha'
   location: 'INDIA'
 
 
