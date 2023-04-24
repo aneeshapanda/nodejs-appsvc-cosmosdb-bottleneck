@@ -1,5 +1,5 @@
 displayName: Get_azure.microsoft.com
-testPlan: quick_test.jmx
+testPlan: SampleApp.jmx
 description: 
 engineInstances: 1
 testId: 56e9c818-85b7-4757-bacd-b382f531d813
