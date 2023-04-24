@@ -1,6 +1,17 @@
-version: v0.1
-testId: SampleAppTest
-displayName: Sample Test
+displayName: Get_azure.microsoft.com
 testPlan: SampleApp.jmx
-description: 'Load test the sample app'
+description: 
 engineInstances: 1
+testId: 1ae531ae-4815-4944-bd49-73ea449d54f7
+splitAllCSVs: False
+env:
+- name: domain
+  value: azure.microsoft.com
+- name: protocol
+  value: https
+- name: threads_per_engine
+  value: 35
+- name: ramp_up_time
+  value: 4
+- name: duration_in_sec
+  value: 12
