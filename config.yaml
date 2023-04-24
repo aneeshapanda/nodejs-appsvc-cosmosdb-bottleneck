@@ -1,0 +1,7 @@
+displayName: Sample Test
+testPlan: SampleApp.jmx
+description: Load test the sample app
+engineInstances: 1
+testId: sampleapptest
+splitAllCSVs: False
+failureCriteria: []
