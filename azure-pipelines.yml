@@ -154,26 +154,6 @@ stages:
             "name": "webapp",
             "value": "shonapp.azurewebsites.net"
             }
-            {
-            "name": "domain",
-            "value": "azure.microsoft.com"
-            }
-            {
-            "name": "protocol",
-            "value": "https"
-            }
-            {
-            "name": "threads_per_engine",
-            "value": "35"
-            }
-            {
-            "name": "ramp_up_time",
-            "value": "4"
-            }
-            {
-            "name": "duration_in_sec",
-            "value": "12"
-            }
           ]
           
     - publish: $(System.DefaultWorkingDirectory)/loadTest
