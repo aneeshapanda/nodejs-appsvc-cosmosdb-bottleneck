@@ -164,15 +164,15 @@ stages:
             },
             {
             "name": "threads_per_engine",
-            "value": "35"
+            "value": "25"
             },
             {
             "name": "ramp_up_time",
-            "value": "4"
+            "value": "3"
             },
             {
             "name": "duration_in_sec",
-            "value": "12"
+            "value": "8"
             }
           ]
           
